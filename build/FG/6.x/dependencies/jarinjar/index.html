@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jar-in-Jar - Forge Documentation</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../../images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="../../images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="../../images/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="../../images/manifest.json">
+    <link rel="mask-icon" href="../../images/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="../../images/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="Forge Docs">
+    <meta name="application-name" content="Forge Docs">
+    <meta name="msapplication-config" content="../../images/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/a1f20be65b.css">
+    <link rel="stylesheet" href="../../css/styles_dark.css?version=2" data-theme="dark">
+    <link rel="stylesheet" href="../../css/styles_light.css?version=2" data-theme="light">
+
+    
+    <link href="../../css/version_warning_fix.css" rel="stylesheet">
+    
+    <script type="text/javascript" src="../../js/theme-switch.js"></script>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jScrollPane/2.0.23/script/jquery.jscrollpane.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/stickyfill/1.1.4/stickyfill.min.js"></script>
+    <script type="text/javascript" src="../../js/theme.js"></script>
+
+    <script>var base_url = '../..';</script>
+    
+    <script src="../../search/main.js"></script>
+    
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    
+</head>
+<body>
+<header>
+    <div class="wrapper">
+        <div class="logo">
+            <a href="#" class="open-sidebar"><i class="fa fa-bars"></i></a>
+            <a href="../.." class="logo-image"><img src="../../images/logo.svg" width="244"></a>
+        </div>
+        <nav>
+            <ul class="links clearfix">
+                <li><a href="https://minecraftforge.net/">Forums</a></li>
+            </ul>
+        </nav>
+        
+        <form role="search" id="rtd-search-form" class="search" action="../../search.html" method="get">
+            <input type="submit" value="&#xf002;">
+            <div class="search-field">
+                <input type="search" title="Search" name="q" placeholder="Search...">
+            </div>
+        </form>
+        
+    </div>
+</header>
+<main class="wrapper sidebar-wrapper">
+    <div class="sidebar-left sidebar-sticky">
+        <aside>
+            <section class="sidebar-nav">
+                <h2 class="sidebar-heading">
+                    <a href="#" class="close-sidebar"><i class="fa fa-bars"></i></a> Navigation
+                    <form class="version-selection">
+                        <label for="version-selection-dropdown">Docs:</label>
+                        <select id="version-selection-dropdown" class="version-selection-dropdown" onchange="location = this.value;">
+                            
+                            <option value="https://docs.minecraftforge.net/en/latest" >MinecraftForge</option>
+                            
+                            <option value="https://docs.minecraftforge.net/en/fg-6.x" selected>ForgeGradle</option>
+                            
+                        </select>
+                    </form>
+                </h2>
+                <h2 class="sidebar-heading">
+                    <form class="version-selection">
+                        <label for="version-selection-dropdown">Version:</label>
+                        <select id="version-selection-dropdown" class="version-selection-dropdown" onchange="location = this.value;">
+                            
+                            <option value="https://docs.minecraftforge.net/en/fg-5.x" >5.x</option>
+                            
+                            <option value="https://docs.minecraftforge.net/en/fg-6.x" selected>6.x</option>
+                            
+                        </select>
+                    </form>
+                </h2>
+                <ul class="section-content scroll-pane">
+                    
+                    
+<li >
+    
+    <a href="../.." class="elem-text">Home</a>
+    
+    
+</li>
+
+                    
+                    
+<li >
+    
+    <a href="../../contributing/" class="elem-text">Contributing to the Docs</a>
+    
+    
+</li>
+
+                    
+                    
+<li class="elem-parent">
+    
+    <a href="#" class="elem-text toggle-collapsible"><span class="fa fa-plus collapsible-icon"></span> Getting Started</a>
+    
+    <ul class="nav-collapsible ">
+        
+        
+<li >
+    
+    <a href="../../gettingstarted/" class="elem-text">Introduction</a>
+    
+    
+</li>
+
+        
+    </ul>
+</li>
+
+                    
+                    
+<li class="elem-parent">
+    
+    <a href="#" class="elem-text toggle-collapsible"><span class="fa fa-plus collapsible-icon"></span> Configurations</a>
+    
+    <ul class="nav-collapsible ">
+        
+        
+<li >
+    
+    <a href="../../configuration/" class="elem-text">Introduction</a>
+    
+    
+</li>
+
+        
+        
+<li >
+    
+    <a href="../../configuration/runs/" class="elem-text">Run Configs</a>
+    
+    
+</li>
+
+        
+        
+<li >
+    
+    <a href="../../configuration/advanced/" class="elem-text">Advanced Topics</a>
+    
+    
+</li>
+
+        
+    </ul>
+</li>
+
+                    
+                    
+<li class="elem-parent">
+    
+    <a href="#" class="elem-text toggle-collapsible"><span class="fa fa-plus collapsible-icon"></span> Dependencies</a>
+    
+    <ul class="nav-collapsible nav-collapsible-open">
+        
+        
+<li >
+    
+    <a href="../" class="elem-text">Introduction</a>
+    
+    
+</li>
+
+        
+        
+<li class="elem-active elem-toc" >
+    
+    <a href="#jar-in-jar" class="elem-text">Jar-in-Jar</a>
+    
+    
+    <ul class="table-of-contents">
+        
+        
+        
+        <li class="toc-subitem"><a href="#adding-dependencies">Adding Dependencies</a></li>
+        
+        <li class="toc-subitem"><a href="#publishing-a-jar-in-jar-to-maven">Publishing a Jar-in-Jar to Maven</a></li>
+        
+        
+    </ul>
+    
+</li>
+
+        
+    </ul>
+</li>
+
+                    
+                    
+<li >
+    
+    <a href="../../porting/5.x_to_6.0/" class="elem-text">Porting to this Version</a>
+    
+    
+</li>
+
+                    
+                </ul>
+            </section>
+        </aside>
+    </div>
+
+    <div class="sidebar-sticky-wrapper-content">
+        <article class="docs-entry">
+            
+            <h1 id="jar-in-jar">Jar-in-Jar<a class="headerlink" href="#jar-in-jar" title="Permanent link"> </a></h1>
+<p>Jar-in-Jar is a way to load dependencies for mods from within the jars of the mods. To accomplish this, Jar-in-Jar generates a metadata json within <code>META-INF/jarjar/metadata.json</code> on build containing the artifacts to load from within the jar.</p>
+<p>Jar-in-Jar is a completely optional system which can be enabled using <code>jarJar#enable</code> before the <code>minecraft</code> block. This will include all dependencies from the <code>jarJar</code> configuration into the <code>jarJar</code> task. You can configure the task similarly to other jar tasks:</p>
+<pre class="highlight"><code class="language-gradle">// In build.gradle
+
+// Enable the Jar-in-Jar system for your mod
+jarJar.enable()
+
+
+// Configure the 'jarJar' task
+// 'all' is the default classifier
+tasks.named('jarJar') {
+    // ...
+}</code></pre>
+<h2 id="adding-dependencies">Adding Dependencies<a class="headerlink" href="#adding-dependencies" title="Permanent link"> </a></h2>
+<p>You can add dependencies to be included inside your jar using the <code>jarJar</code> configuration. As Jar-in-Jar is a negotiation system, all versions should supply a supported range.</p>
+<pre class="highlight"><code class="language-gradle">// In build.gradle
+dependencies {
+    // Compiles against and includes the highest supported version of examplelib
+    //   between 2.0 (inclusive) and 3.0 (exclusive)
+    jarJar(group: 'com.example', name: 'examplelib', version: '[2.0,3.0)')
+}</code></pre>
+<p>If you need to specify an exact version to include rather than the highest supported version in the range, you can use <code>jarJar#pin</code> within the dependency closure. In these instances, the artifact version will be used during compile time while the pinned version will be bundled inside the mod jar.</p>
+<pre class="highlight"><code class="language-gradle">// In build.gradle
+dependencies {
+    // Compiles against the highest supported version of examplelib
+    //   between 2.0 (inclusive) and 3.0 (exclusive)
+    jarJar(group: 'com.example', name: 'examplelib', version: '[2.0,3.0)') {
+      // Includes examplelib 2.8.0
+      jarJar.pin(it, '2.8.0')
+    }
+}</code></pre>
+<p>You can additionally pin a version range while compiling against a specific version instead:</p>
+<pre class="highlight"><code class="language-gradle">// In build.gradle
+dependencies {
+    // Compiles against examplelib 2.8.0
+    jarJar(group: 'com.example', name: 'examplelib', version: '2.8.0') {
+      // Includes the highest supported version of examplelib
+      //   between 2.0 (inclusive) and 3.0 (exclusive)
+      jarJar.pin(it, '[2.0,3.0)')
+    }
+}</code></pre>
+<h3 id="using-runtime-dependencies">Using Runtime Dependencies<a class="headerlink" href="#using-runtime-dependencies" title="Permanent link"> </a></h3>
+<p>If you would like to include the runtime dependencies of your mod inside your jar, you can invoke <code>jarJar#fromRuntimeConfiguration</code> within your buildscript. If you decide to use this option, it is highly suggested to include dependency filters; otherwise, every single dependency &ndash; including Minecraft and Forge &ndash; will be bundled in the jar as well. To support more flexible statements, the <code>dependency</code> configuration has been added to the <code>jarJar</code> extension and task. Using this, you can specify patterns to include or exclude from the configuration:</p>
+<pre class="highlight"><code class="language-gradle">// In build.gradle
+
+// Add runtime dependencies to jar
+jarJar.fromRuntimeConfiguration()
+
+// ...
+
+jarJar {
+    // Include or exclude dependencies here from runtime configuration
+    dependencies {
+        // Exclude any dependency which begins with 'com.google.gson.'
+        exclude(dependency('com.google.gson.*'))
+    }
+}</code></pre>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>It is generally recommended to set at least one <code>include</code> filter when using <code>#fromRuntimeConfiguration</code>.</p>
+</div>
+<h2 id="publishing-a-jar-in-jar-to-maven">Publishing a Jar-in-Jar to Maven<a class="headerlink" href="#publishing-a-jar-in-jar-to-maven" title="Permanent link"> </a></h2>
+<p>For archival reasons, ForgeGradle supports publishing Jar-in-Jar artifacts to a maven of choice, similar to how the <a href="https://imperceptiblethoughts.com/shadow/getting-started/">Shadow plugin</a> handles it. In practices, this is not useful or recommended.</p>
+<pre class="highlight"><code class="language-gradle">// In build.gradle (has 'maven-publish' plugin)
+
+publications {
+    mavenJava(MavenPublication) {
+        // Add standard java components and Jar-in-Jar artifact
+        from components.java
+        jarJar.component(it)
+
+        // ...
+    }
+}</code></pre>
+            
+        </article>
+        
+    </div>
+</main>
+<div class="wrapper">
+    <footer>
+        Built with <a href="https://www.mkdocs.org">MkDocs</a> using a custom theme. Hosted by <a href="https://readthedocs.org">Read the Docs</a>.
+        <div class="theme-switch-wrapper">
+            Enable Dark Theme
+            <label class="theme-switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
